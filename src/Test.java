@@ -1,7 +1,8 @@
 import FirstAndSecondTask.EvenIndexNameExtractor;
 import FirstAndSecondTask.ReverseUpperNamesList;
-import ThirdTask.NumberStringArray;
 import FourthTask.LinearCongruentGenerator;
+import ThirdTask.NumberStringArray;
+
 import static FifthTask.StreamZipper.zip;
 
 import java.util.List;
@@ -23,7 +24,7 @@ public class Test {
                   new ReverseUpperNamesList().sortedReverseUpperNames(names) + "\n");
 
 //        TASK 3
-          String[] array = {"1, 2, 0, 3, 1, 9", "4, 5"};
+          String[] array = {"1, 2, 3, 4, 13, 2, 0, 3, 1, 9", "4, 5", "2382", "23, 22"};
           System.out.println("Third Task: " +
                   new NumberStringArray().getStringFromNumArray(array) + "\n");
 
